@@ -1,0 +1,53 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:05.401
+Starting with a single atom, explore the limits of semiconductor device performance.
+
+2
+00:00:06.142 --> 00:00:12.339
+AtomTrans—a quantum transport simulation platform built on plane-wave calculations and Wannier-basis Hamiltonians.
+
+3
+00:00:13.187 --> 00:00:19.539
+Starting from plane-wave first-principles calculations, AtomTrans uses Wannierization to construct localized Hamiltonians
+
+4
+00:00:19.564 --> 00:00:24.892
+and the nonequilibrium Green’s function method to connect atomic-scale electronic structure with device transport.
+
+5
+00:00:25.720 --> 00:00:32.556
+From molecular junctions and nanowires to two-dimensional semiconductors, build devices in an intuitive three-dimensional workspace.
+
+6
+00:00:33.297 --> 00:00:38.971
+Define electrodes, channels, gates, and dielectric regions, bringing materials and device design together.
+
+7
+00:00:39.787 --> 00:00:45.847
+For transistor research, investigate how gate voltage controls the channel and how current responds to source–drain bias.
+
+8
+00:00:46.588 --> 00:00:50.753
+Examine transmission spectra, local densities of states, and transport pathways
+
+9
+00:00:50.778 --> 00:00:54.571
+to understand contact effects, quantum tunneling, and switching behavior.
+
+10
+00:00:55.387 --> 00:01:00.204
+Explore spin-dependent transport, superconductivity, phonons, and heat transport.
+
+11
+00:01:00.957 --> 00:01:05.463
+Extend your research with semiclassical transport and machine-learned Hamiltonian workflows.
+
+12
+00:01:06.287 --> 00:01:13.213
+From structure modeling and task monitoring to visualization and result comparison, work within one integrated scientific environment.
+
+13
+00:01:14.053 --> 00:01:17.591
+AtomTrans. Connecting electronic structure with device transport.

@@ -1,1 +1,117 @@
-111
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080c10">
+  <meta name="description" content="AtomTrans：基于平面波与瓦尼尔基的量子输运仿真平台。从微观原子结构，走向半导体器件性能。">
+  <meta property="og:title" content="AtomTrans — 从原子结构到器件性能">
+  <meta property="og:description" content="Plane-wave. Wannier. Quantum transport. 探索原子尺度的器件输运。">
+  <meta property="og:type" content="website">
+  <title>AtomTrans — 从原子结构到器件性能</title>
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="theme.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">跳转到正文</a>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="#" aria-label="AtomTrans"><img src="assets/logo.png" width="42" height="42" alt=""><span>AtomTrans<span class="brand-dot">.</span></span></a>
+      <nav class="desktop-nav" aria-label="主导航" data-aria="navLabel">
+        <a href="#platform" data-i18n="navPlatform">仿真平台</a><a href="#capabilities" data-i18n="navCapabilities">功能概述</a><a href="#research" data-i18n="navResearch">研究实例</a><a href="#film" data-i18n="navFilm">软件介绍</a>
+      </nav>
+      <div class="header-controls">
+      <div class="theme-switch" role="group" aria-label="外观主题" data-aria="themeLabel">
+        <button type="button" data-theme-choice="light" aria-pressed="false" aria-label="浅色主题" data-aria="lightLabel" title="浅色 / Light"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.4 1.4m11.2 11.2L19 19M5 19l1.4-1.4M17.6 6.4 19 5"/></svg></button>
+        <button type="button" data-theme-choice="dark" class="active" aria-pressed="true" aria-label="深色主题" data-aria="darkLabel" title="深色 / Dark"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.4 13.5A8.5 8.5 0 0 1 10.5 3.6a8.5 8.5 0 1 0 9.9 9.9Z"/></svg></button>
+      </div>
+      <div class="language-switch" role="group" aria-label="Language / 语言">
+        <button type="button" data-lang="zh" class="active" aria-pressed="true" lang="zh-CN">中文</button><button type="button" data-lang="en" aria-pressed="false" lang="en">EN</button>
+      </div>
+      </div>
+    </div>
+    <nav class="mobile-nav" aria-label="快捷导航" data-aria="mobileNavLabel"><a href="#platform" data-i18n="navPlatform">仿真平台</a><a href="#capabilities" data-i18n="navCapabilities">功能概述</a><a href="#research" data-i18n="navResearch">研究实例</a><a href="#film" data-i18n="navFilm">软件介绍</a></nav>
+  </header>
+  <main id="main">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="tiny-line"></span> ATOMISTIC INSIGHT. DEVICE IMPACT.</p>
+        <h1 id="hero-title"><span data-i18n="hero1">从一颗原子，</span><br><span class="soft-text" data-i18n="hero2">走向器件性能。</span></h1>
+        <p class="hero-description" data-i18n="heroBody">基于平面波与瓦尼尔基的量子输运仿真平台。连接微观电子结构与电学响应，探索半导体器件的性能边界。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#film" data-play-film><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m7 4 9 6-9 6z"/></svg><span data-i18n="watchFilm">观看软件介绍</span></a>
+          <a class="text-link" href="#platform"><span data-i18n="explore">探索平台</span><span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-signature"><span>PLANE-WAVE</span><i></i><span>WANNIER</span><i></i><span>NEGF</span></div>
+      </div>
+      <div class="hero-art">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <img src="assets/hero-device.svg" width="960" height="760" alt="两端电极与中央原子通道的输运概念示意" data-alt="heroAlt" fetchpriority="high">
+        <span class="art-caption"><span class="status-dot"></span><span data-i18n="heroCaption">原子尺度输运 · 概念示意</span></span>
+      </div>
+      <div class="hero-baseline"><span data-i18n="heroBaseline">从微观原子结构，走向半导体器件性能。</span><a href="#film" aria-label="向下浏览" data-aria="scrollLabel">↓</a><span class="mono">THE ATOMTRANS PLATFORM</span></div>
+    </section>
+
+    <section id="film" class="film-section section container" aria-labelledby="film-title">
+      <div class="section-heading">
+        <div><p class="eyebrow" data-i18n="filmEyebrow">01 / MEET ATOMTRANS</p><h2 id="film-title" data-i18n="filmTitle">从原子出发，看见更多。</h2></div>
+        <p class="section-summary" data-i18n="filmBody">一部短片，了解从器件建模到输运分析的完整研究体验。</p>
+      </div>
+      <div class="film-toolbar"><div class="film-title-line"><span class="status-dot"></span><span data-i18n="filmEdition">中文软件介绍</span><span class="mono" id="film-duration">01:11</span></div><div class="film-languages" role="group" aria-label="影片语言" data-aria="filmLanguageLabel"><button type="button" data-lang="zh" class="active" aria-pressed="true">中文</button><button type="button" data-lang="en" aria-pressed="false">English</button></div></div>
+      <div class="video-shell">
+        <video id="product-video" controls playsinline preload="metadata" poster="assets/video/poster-cn.jpg" aria-label="AtomTrans 中文软件介绍" data-aria="videoLabel">
+          <source src="assets/video/atomtrans-cn.mp4" type="video/mp4">
+          <span data-i18n="videoFallback">浏览器不支持视频播放，请下载影片观看。</span>
+        </video>
+        <button id="video-play" class="video-play" type="button" aria-label="播放软件介绍" data-aria="playLabel"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="m12 7 15 9-15 9z"/></svg></button>
+      </div>
+      <div class="film-caption"><span data-i18n="filmCaption">真实软件界面 · 真实计算案例</span><a id="video-download" href="assets/video/atomtrans-cn.mp4" download><span data-i18n="downloadFilm">下载影片</span> <span aria-hidden="true">↓</span></a></div>
+      <p id="video-error" class="video-error" hidden data-i18n="videoError">视频暂时无法播放。请使用下方下载链接打开本地 MP4 文件。</p>
+    </section>
+
+    <section id="platform" class="platform-section section" aria-labelledby="platform-title">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">02 / SIMULATION PLATFORM</p><h2 id="platform-title"><span data-i18n="platformTitle1">微观机制。</span><br><span class="soft-text" data-i18n="platformTitle2">可见结果。</span></h2></div><p class="section-summary" data-i18n="platformBody">在统一的科学工作空间中构建器件、定义电极与沟道、监控计算，并对比输运结果。让每一步分析都回到真实的原子结构。</p></div>
+        <div class="workspace-tabs" role="tablist" aria-label="软件界面" data-aria="workspaceLabel"><button id="tab-device" role="tab" type="button" data-workspace="device" aria-selected="true" aria-controls="workspace-panel" tabindex="0"><span>01</span><span data-i18n="tabDevice">三维器件建模</span></button><button id="tab-transmission" role="tab" type="button" data-workspace="transmission" aria-selected="false" aria-controls="workspace-panel" tabindex="-1"><span>02</span><span data-i18n="tabTransmission">透射谱分析</span></button><button id="tab-iv" role="tab" type="button" data-workspace="iv" aria-selected="false" aria-controls="workspace-panel" tabindex="-1"><span>03</span><span data-i18n="tabIV">电流响应</span></button></div>
+        <div id="workspace-panel" class="workspace-panel" role="tabpanel" aria-labelledby="tab-device">
+          <button class="screenshot-button" id="workspace-zoom" type="button" aria-label="放大软件界面" data-aria="enlargeLabel"><img id="workspace-image" src="assets/device.webp" width="1690" height="950" alt="AtomTrans 中 Au–BDT–Au 器件的三维建模界面" loading="lazy"><span class="zoom-hint"><span aria-hidden="true">⤢</span><span data-i18n="enlarge">放大查看</span></span></button>
+        </div>
+        <div class="workspace-caption"><span id="workspace-caption" data-i18n="workspaceDevice">Au–BDT–Au 分子结 · 电极与中心区的三维结构视图</span><span class="mono" data-i18n="actualInterface">ACTUAL SOFTWARE INTERFACE</span></div>
+        <div class="method-strip"><div><span class="method-number">I</span><h3 data-i18n="method1">平面波第一性原理</h3><p data-i18n="method1Body">从材料与原子结构出发，描述体系的电子结构。</p></div><div><span class="method-number">II</span><h3 data-i18n="method2">瓦尼尔基哈密顿量</h3><p data-i18n="method2Body">通过瓦尼尔化构建局域表示，连接电子结构与输运计算。</p></div><div><span class="method-number">III</span><h3 data-i18n="method3">非平衡格林函数</h3><p data-i18n="method3Body">在开放边界下分析量子输运，获得透射与电流响应。</p></div></div>
+      </div>
+    </section>
+
+    <section id="capabilities" class="section capabilities-section container" aria-labelledby="capabilities-title">
+      <div class="section-heading"><div><p class="eyebrow">03 / SOFTWARE FEATURES</p><h2 id="capabilities-title" data-i18n="capTitle">一个平台，多维探索。</h2></div><p class="section-summary" data-i18n="capBody">从分子结、纳米线到二维半导体，将材料、接触与器件行为放在同一研究视野中。</p></div>
+      <div class="capability-grid">
+        <article><span class="cap-index">01 / MODEL</span><h3 data-i18n="cap1">原子级器件建模</h3><p data-i18n="cap1Body">定义电极、中心区、沟道与边界，在三维工作空间中组织器件结构。</p></article>
+        <article><span class="cap-index">02 / CONTROL</span><h3 data-i18n="cap2">偏压与栅控响应</h3><p data-i18n="cap2Body">设置栅极和介电区域，结合电流与透射分析器件的电学响应。</p></article>
+        <article><span class="cap-index">03 / QUANTUM</span><h3 data-i18n="cap3">自旋与超导输运</h3><p data-i18n="cap3Body">探索自旋分辨的电子输运，以及超导体系中的输运行为。</p></article>
+        <article><span class="cap-index">04 / THERMAL</span><h3 data-i18n="cap4">声子与热输运</h3><p data-i18n="cap4Body">从声子到热电响应，拓展对器件能量传输的理解。</p></article>
+        <article><span class="cap-index">05 / SEMICLASSICAL</span><h3 data-i18n="cap5">半经典输运</h3><p data-i18n="cap5Body">通过半经典输运工作流，研究与能带相关的材料输运性质。</p></article>
+        <article><span class="cap-index">06 / INTELLIGENCE</span><h3 data-i18n="cap6">机器学习哈密顿量</h3><p data-i18n="cap6Body">以机器学习哈密顿量工作流，拓展原子尺度输运的研究范围。</p></article>
+      </div>
+    </section>
+
+    <section id="research" class="research-section section" aria-labelledby="research-title">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">04 / RESEARCH EXAMPLE</p><h2 id="research-title" data-i18n="researchTitle">让输运机制，清晰呈现。</h2></div><p class="section-summary" data-i18n="researchBody">透射谱、局域态密度与电流曲线，提供观察微观机制的不同视角。</p></div>
+        <div class="research-tabs" role="tablist" aria-label="研究案例" data-aria="researchLabel"><button type="button" id="case-bdt" data-case="bdt" role="tab" aria-selected="true" tabindex="0" aria-controls="case-panel">Au–BDT–Au</button><button type="button" id="case-co" data-case="co" role="tab" aria-selected="false" tabindex="-1" aria-controls="case-panel">Au–Co–Au</button><button type="button" id="case-chain" data-case="chain" role="tab" aria-selected="false" tabindex="-1" aria-controls="case-panel" data-i18n="chainTab">Au 原子链</button></div>
+        <div id="case-panel" class="case-panel" role="tabpanel" aria-labelledby="case-bdt">
+          <div class="case-copy"><p id="case-category" class="eyebrow" data-i18n="caseBdtCategory">MOLECULAR JUNCTION</p><h3 id="case-title" data-i18n="caseBdtTitle">从分子接触，
+到电流响应。</h3><p id="case-body" data-i18n="caseBdtBody">在 Au–BDT–Au 分子结中，结合透射谱与 I–V 曲线，考察接触、电子态与器件输运之间的联系。</p><div class="case-tags" id="case-tags"><span>Transmission</span><span>I–V</span></div><button id="case-zoom" class="text-link" type="button"><span data-i18n="viewResult">查看计算结果</span><span aria-hidden="true">↗</span></button></div>
+          <button class="case-image-button" id="case-image-zoom" type="button" aria-label="放大计算结果" data-aria="resultZoom"><img id="case-image" src="assets/iv.webp" width="1690" height="950" alt="Au–BDT–Au 电流–电压曲线与参考结果的对比界面" loading="lazy"><span class="zoom-hint"><span aria-hidden="true">⤢</span><span data-i18n="enlarge">放大查看</span></span></button>
+        </div>
+        <p class="case-note" data-i18n="caseNote">以上为 AtomTrans 真实计算案例；具体结果对应各自的结构与计算设置。</p>
+      </div>
+    </section>
+
+    <section class="closing container" aria-labelledby="closing-title"><div><p class="eyebrow">ATOMTRANS</p><h2 id="closing-title"><span data-i18n="closing1">连接电子结构。</span><br><span class="soft-text" data-i18n="closing2">洞察器件输运。</span></h2></div><a class="button primary" href="#film" data-play-film><span data-i18n="watchFilm">观看软件介绍</span><span aria-hidden="true">↗</span></a></section>
+  </main>
+  <footer class="site-footer container"><a class="brand footer-brand" href="#"><img src="assets/logo.png" width="32" height="32" alt=""><span>AtomTrans</span></a><p data-i18n="footer">平面波与瓦尼尔基量子输运仿真平台</p><span>© 2026 AtomTrans</span><a href="#" data-i18n="backTop">返回顶部 ↑</a></footer>
+  <dialog id="image-dialog" aria-label="软件界面大图" data-aria="dialogLabel"><div class="dialog-toolbar"><span id="dialog-caption"></span><button id="dialog-close" type="button" aria-label="关闭大图" data-aria="closeLabel">×</button></div><img id="dialog-image" alt=""></dialog>
+  <noscript><div class="noscript-note">此页面默认显示中文。语言切换需要 JavaScript。Videos: <a href="assets/video/atomtrans-cn.mp4">中文</a> · <a href="assets/video/atomtrans-en.mp4">English</a></div></noscript>
+</body>
+</html>
